@@ -81,7 +81,7 @@ To install and run locally, you may follow these steps:
 
 4. Create a .env file in the root folder and add the following to the file: REACT_APP_SERVER = <http://localhost:8080/>
 
-5. Clone and run the backend by going to the following repo: <https://github.com/guyfarley/solar-system-backend>
+5. Clone and run the backend by going to the following repo: https://github.com/revyrob/solarSystem/tree/main/solar-system-backend
 
 6. Following the `README` file within the backend repo to clone and run the backend.
 

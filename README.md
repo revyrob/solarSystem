@@ -78,6 +78,10 @@ This application was developed for a Dear Junior Dev Hackathon, between March 24
 
 <p>Our backend consists of a MySQL database running on Amazon Web Services Relational Database Service and an express server running on Node.JS.</p>
 <p>Our MySQL database consists of two tables, one for the planets and one for the moons.</p>
+<p>The collobrating repo is located at:</p>
+<p>https://github.com/guyfarley/solar-system-frontend</p>
+<p>https://github.com/guyfarley/solar-system-backend</p>
+
 
 ### Planet Table
 
