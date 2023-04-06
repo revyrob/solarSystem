@@ -1,0 +1,32 @@
+@use '../../styles/mixins' as *;
+
+.planet-banner {
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(16, 15, 15, 0.4), rgba(27, 16, 22, 0.4)), url("../../assets/images/stars2.jpg");
+    background-size: 100%;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+    &__name {
+        font-size: 5rem;
+        color: white;
+        position: absolute;
+        bottom: 10%;
+
+        @include tablet {
+            font-size: 5rem;
+            color: white;
+            position: absolute;
+            left: 10%;
+            bottom: 25%;
+        }
+    }
+}

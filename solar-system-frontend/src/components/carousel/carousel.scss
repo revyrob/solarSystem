@@ -1,0 +1,45 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  max-width: 80rem;
+  overflow-y: auto;
+}
+
+.single-item-container {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  // min-width: 10rem;
+}
+
+.items-container {
+  display: flex;
+  overflow-y: hidden;
+  justify-content: flex-start;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.items-container::-webkit-scrollbar {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+  }
+}
+
+.carousel-button {
+  background-color: $color-dark-2 !important;
+  color: white !important;
+  margin-bottom: 5px !important;
+}
